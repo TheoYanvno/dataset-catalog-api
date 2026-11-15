@@ -1,0 +1,283 @@
+[
+  {
+    "id": "lunar-crater-survey-2024",
+    "title": "Lunar Crater Survey 2024",
+    "description": "Positions, diameters and depths of craters mapped from orbital imagery over one survey season.",
+    "publisher": "Example Space Agency",
+    "contact_email": "data@space.example.org",
+    "license": "CC0 1.0",
+    "access_level": "public",
+    "modified": "2024-11-02",
+    "landing_page": "https://data.example.org/lunar-crater-survey-2024",
+    "keywords": [
+      "moon",
+      "craters",
+      "imagery"
+    ],
+    "distributions": [
+      {
+        "format": "CSV",
+        "url": "https://data.example.org/files/crater-survey-2024.csv"
+      },
+      {
+        "format": "JSON",
+        "url": "https://data.example.org/files/crater-survey-2024.json"
+      }
+    ]
+  },
+  {
+    "id": "solar-wind-hourly",
+    "title": "Solar Wind Hourly Averages",
+    "description": "Hourly averages of solar wind speed, density and magnetic field strength from a monitoring spacecraft.",
+    "publisher": "Example Space Agency",
+    "contact_email": "data@space.example.org",
+    "license": "CC0 1.0",
+    "access_level": "public",
+    "modified": "2025-06-30",
+    "landing_page": "https://data.example.org/solar-wind-hourly",
+    "keywords": [
+      "sun",
+      "space weather",
+      "time series"
+    ],
+    "distributions": [
+      {
+        "format": "CSV",
+        "url": "https://data.example.org/files/solar-wind-hourly.csv"
+      },
+      {
+        "format": "API",
+        "url": "https://api.example.org/v1/solar-wind"
+      }
+    ]
+  },
+  {
+    "id": "exoplanet-candidates",
+    "title": "Exoplanet Candidate List",
+    "description": "Candidate planets found in transit surveys, with orbital period, radius estimate and confidence score.",
+    "publisher": "Example Space Agency",
+    "contact_email": "data@space.example.org",
+    "license": "CC0 1.0",
+    "access_level": "public",
+    "modified": "2025-09-14",
+    "landing_page": "https://data.example.org/exoplanet-candidates",
+    "keywords": [
+      "exoplanets",
+      "astronomy"
+    ],
+    "distributions": [
+      {
+        "format": "CSV",
+        "url": "https://data.example.org/files/exoplanet-candidates.csv"
+      }
+    ]
+  },
+  {
+    "id": "earth-surface-temperature",
+    "title": "Earth Surface Temperature Grid",
+    "description": "Monthly land and sea surface temperature anomalies on a 1-degree global grid.",
+    "publisher": "Example Space Agency",
+    "contact_email": "data@space.example.org",
+    "license": "CC0 1.0",
+    "access_level": "public",
+    "modified": "2025-10-01",
+    "landing_page": "https://data.example.org/earth-surface-temperature",
+    "keywords": [
+      "climate",
+      "temperature",
+      "earth"
+    ],
+    "distributions": [
+      {
+        "format": "Parquet",
+        "url": "https://data.example.org/files/surface-temp.parquet"
+      }
+    ]
+  },
+  {
+    "id": "mission-telemetry-sample",
+    "title": "Mission Telemetry Sample",
+    "description": "Sanitized sample of spacecraft housekeeping telemetry for training and testing.",
+    "publisher": "Example Space Agency",
+    "contact_email": "data@space.example.org",
+    "license": "Restricted use agreement",
+    "access_level": "restricted",
+    "modified": "2023-03-18",
+    "landing_page": "https://data.example.org/mission-telemetry-sample",
+    "keywords": [
+      "telemetry",
+      "spacecraft"
+    ],
+    "distributions": [
+      {
+        "format": "ZIP",
+        "url": "https://data.example.org/files/telemetry-sample.zip"
+      }
+    ]
+  },
+  {
+    "id": "tide-gauge-readings",
+    "title": "Tide Gauge Readings",
+    "description": "Six-minute water level readings from coastal tide gauges, quality-checked monthly.",
+    "publisher": "Coastal Research Institute",
+    "contact_email": "data@coast.example.org",
+    "license": "CC0 1.0",
+    "access_level": "public",
+    "modified": "2025-08-21",
+    "landing_page": "https://data.example.org/tide-gauge-readings",
+    "keywords": [
+      "ocean",
+      "sea level",
+      "time series"
+    ],
+    "distributions": [
+      {
+        "format": "CSV",
+        "url": "https://data.example.org/files/tide-gauges.csv"
+      },
+      {
+        "format": "API",
+        "url": "https://api.example.org/v1/tides"
+      }
+    ]
+  },
+  {
+    "id": "coral-reef-health",
+    "title": "Coral Reef Health Index",
+    "description": "Annual reef health scores from diver surveys and satellite water-quality data.",
+    "publisher": "Coastal Research Institute",
+    "contact_email": "data@coast.example.org",
+    "license": "CC0 1.0",
+    "access_level": "public",
+    "modified": "2024-12-15",
+    "landing_page": "https://data.example.org/coral-reef-health",
+    "keywords": [
+      "ocean",
+      "coral",
+      "ecology"
+    ],
+    "distributions": [
+      {
+        "format": "CSV",
+        "url": "https://data.example.org/files/reef-health.csv"
+      }
+    ]
+  },
+  {
+    "id": "hurricane-tracks",
+    "title": "Atlantic Hurricane Tracks",
+    "description": "Six-hourly storm positions, pressure and wind speed for Atlantic tropical cyclones.",
+    "publisher": "Coastal Research Institute",
+    "contact_email": "data@coast.example.org",
+    "license": "CC0 1.0",
+    "access_level": "public",
+    "modified": "2025-11-01",
+    "landing_page": "https://data.example.org/hurricane-tracks",
+    "keywords": [
+      "hurricanes",
+      "weather",
+      "climate"
+    ],
+    "distributions": [
+      {
+        "format": "GeoJSON",
+        "url": "https://data.example.org/files/hurricane-tracks.geojson"
+      }
+    ]
+  },
+  {
+    "id": "park-locations",
+    "title": "City Park Locations",
+    "description": "Every city park with its acreage, amenities and accessibility features.",
+    "publisher": "City Open Data Office",
+    "contact_email": "data@city.example.org",
+    "license": "CC0 1.0",
+    "access_level": "public",
+    "modified": "2025-04-09",
+    "landing_page": "https://data.example.org/park-locations",
+    "keywords": [
+      "parks",
+      "recreation",
+      "maps"
+    ],
+    "distributions": [
+      {
+        "format": "GeoJSON",
+        "url": "https://data.example.org/files/parks.geojson"
+      },
+      {
+        "format": "CSV",
+        "url": "https://data.example.org/files/parks.csv"
+      }
+    ]
+  },
+  {
+    "id": "bus-ridership-monthly",
+    "title": "Monthly Bus Ridership",
+    "description": "Boardings by route and month, with weekday and weekend splits.",
+    "publisher": "City Open Data Office",
+    "contact_email": "data@city.example.org",
+    "license": "CC0 1.0",
+    "access_level": "public",
+    "modified": "2025-10-05",
+    "landing_page": "https://data.example.org/bus-ridership-monthly",
+    "keywords": [
+      "transit",
+      "time series"
+    ],
+    "distributions": [
+      {
+        "format": "CSV",
+        "url": "https://data.example.org/files/ridership.csv"
+      }
+    ]
+  },
+  {
+    "id": "clinic-wait-times",
+    "title": "Public Clinic Wait Times",
+    "description": "Average wait from check-in to provider for public health clinics, by month. No patient-level data.",
+    "publisher": "State Health Department",
+    "contact_email": "data@health.example.org",
+    "license": "CC0 1.0",
+    "access_level": "public",
+    "modified": "2025-07-31",
+    "landing_page": "https://data.example.org/clinic-wait-times",
+    "keywords": [
+      "health",
+      "clinics",
+      "wait times"
+    ],
+    "distributions": [
+      {
+        "format": "CSV",
+        "url": "https://data.example.org/files/clinic-waits.csv"
+      }
+    ]
+  },
+  {
+    "id": "immunization-rates",
+    "title": "Immunization Rates by County",
+    "description": "Share of children up to date on recommended vaccines, by county and year.",
+    "publisher": "State Health Department",
+    "contact_email": "data@health.example.org",
+    "license": "CC0 1.0",
+    "access_level": "public",
+    "modified": "2025-02-28",
+    "landing_page": "https://data.example.org/immunization-rates",
+    "keywords": [
+      "health",
+      "immunization",
+      "maps"
+    ],
+    "distributions": [
+      {
+        "format": "CSV",
+        "url": "https://data.example.org/files/immunization.csv"
+      },
+      {
+        "format": "JSON",
+        "url": "https://data.example.org/files/immunization.json"
+      }
+    ]
+  }
+]
